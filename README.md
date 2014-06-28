@@ -14,10 +14,11 @@ powerline-installation
 ####Installing Powerline Shell
 
 git clone https://github.com/milkbikis/powerline-shell
-cd /powerline-shell && ./install.py
+
+	cd /powerline-shell && ./install.py
 
 
-touch ~/.bashrc && vim ~/.bashrc
+#####touch ~/.bashrc && vim ~/.bashrc
 
 	function _update_ps1() {
 	       export PS1="$("path/to/cloned/repo/"powerline-shell.py $? 2> /dev/null)"
