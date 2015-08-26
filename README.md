@@ -21,7 +21,7 @@ git clone https://github.com/milkbikis/powerline-shell
 #####touch ~/.bashrc && vim ~/.bashrc
 
 	function _update_ps1() {
-	       export PS1="$(**"path/to/cloned/repo/"**powerline-shell.py $? 2> /dev/null)"
+	       export PS1="$("path/to/cloned/repo/"powerline-shell.py $? 2> /dev/null)"
 	    }
 
 	    export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
